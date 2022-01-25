@@ -5,7 +5,7 @@ function GlobalStyle() {
   return (
     <style global jsx>{`
       * {
-        marging: 0;
+        margin: 0;
         padding: 0;
         box-sizing: border-box;
         list-style: none;
@@ -73,7 +73,7 @@ export default function PaginaInicial() {
           display: 'flex', alignItems: 'center', justifyContent: 'center',
           backgroundColor: appConfig.theme.colors.neutrals[300],
           backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2021/05/view-of-santorini.jpg)',
-          backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
+          backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply'
         }}
       >
         <Box
